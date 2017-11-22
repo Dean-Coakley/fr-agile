@@ -6,5 +6,5 @@ git checkout master
 git add .
 git commit -m "Travis build number: $TRAVIS_BUILD_NUMBER"
 
-git remote add origin-repo https://f244293c729d5066cf27@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
-git push --quiet --set-upstream origin-repo master
+git remote add dest-repo https://9bbc1599fc7d148b3867a23903a4d7dc0a35bf76@github.com/Raddish18/DeployRepo.git > /dev/null 2>&1
+git push --quiet --set-upstream dest-repo
