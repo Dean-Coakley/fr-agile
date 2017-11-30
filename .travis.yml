@@ -6,7 +6,7 @@ jobs:
       script: skip
       deploy:
         provider: releases
-        api_key: "187628daed1700f96b5d75e48496ef9abd3c3772"
+        api_key: "625e77852b9667c0d704ae81c28a426e5bf65128"
         skip_cleanup: true
         on:
           tags: true
