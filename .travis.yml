@@ -6,7 +6,7 @@ jobs:
       script: skip
       deploy:
         provider: releases
-        api_key: "$github_api"
+        api_key: $github_api
         skip_cleanup: true
         on:
           tags: true
