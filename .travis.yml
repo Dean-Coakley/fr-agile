@@ -1,5 +1,12 @@
 language: generic
-before_install:
-  - sudo chmod 777 push.sh
-script:
-  - ./push.sh
+jobs:
+  include:
+    - script: echo "Starting Build $TRAVIS_BUILD_NUMBER"
+    - stage: GitHub Release
+      script: skip
+      deploy:
+        provider: releases
+        api_key: "187628daed1700f96b5d75e48496ef9abd3c3772"
+        skip_cleanup: true
+        on:
+          tags: true
