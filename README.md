@@ -5,5 +5,6 @@
 This is a project that is used to demonstrate a CI/CD pipeline with TravisCI and Jenkins
 
 ## Travis CI
-
+* Builds to Github releases
 ## Jenkins
+* Builds to JenkinsBuild branch
