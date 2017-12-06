@@ -1,7 +1,7 @@
 language: generic
 jobs:
   include:
-    - script: echo "Starting Build $TRAVIS_BUILD_NUMBER"
+    - script: eho "Starting Build $TRAVIS_BUILD_NUMBER"
     - stage: GitHub Release
       script: skip
       deploy:
